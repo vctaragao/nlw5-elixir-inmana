@@ -11,7 +11,6 @@ defmodule InmanaWeb.Router do
     get "/", WelcomeController, :index
 
     post "/restaurants", RestaurantsControllerCreate, :invoke
-    get "/restaurants/:id", RestaurantControllerGet, :invoke
   end
 
   # Enables LiveDashboard only for development
